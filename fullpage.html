@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Paper Boys | Castle and Keep Studios</title>
+  <meta name="author" content="Joanna Zeta" />
+  <meta name="description" content="fullPage continuous scrolling demo." />
+  <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+  <meta name="Resource-type" content="Document" />
+
+
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="examples.css" />
+
+  <!--[if IE]>
+    <script type="text/javascript">
+       var console = { log: function() {} };
+    </script>
+  <![endif]-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+  <script type="text/javascript" src="jquery.fullPage.js"></script>
+  <script type="text/javascript" src="examples.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#4BBFC3', '#ccddff'],
+        anchors: ['home', 'about', 'episodes', 'cast-and-crew', 'contact'],
+        menu: '#menu'
+      });
+    });
+  </script>
+
+</head>
+<body>
+
+<div id="logo">
+  <img src="img/paperboys_title_01.png" alt="logo" />
+</div>
+
+<ul id="menu">
+  <li data-menuanchor="home" class="active"><a href="#home">HOME</a></li>
+  <li data-menuanchor="about"><a href="#about">ABOUT</a></li>
+  <li data-menuanchor="episodes"><a href="#episodes">EPISODES</a></li>
+  <li data-menuanchor="cast-and-crew"><a href="#cast-and-crew">CAST &amp; CREW</a></li>
+  <li data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
+</ul>
+
+<div id="fullpage">
+  <div class="section" id="home">
+  </div>
+  <div class="section" id="about">
+  </div>
+  <div class="section" id="episodes">
+  </div>
+  <div class="section" id="cast-and-crew">
+  </div>
+  <div class="section" id="contact">
+  </div>
+</div>
+
+</body>
+</html>

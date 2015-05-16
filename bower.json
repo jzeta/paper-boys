@@ -1,0 +1,29 @@
+{
+  "name": "paper-boys",
+  "version": "1.0.0",
+  "authors": [
+    "Joanna Zeta <holla@jzeta.com>"
+  ],
+  "description": "Website for Paper Boys: A Web Series",
+  "main": "index.html",
+  "keywords": [
+    "paper",
+    "boys",
+    "web",
+    "series",
+    "castle",
+    "keep"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-less": "~3.3.4",
+    "components-font-awesome": "~4.3.0"
+  }
+}
