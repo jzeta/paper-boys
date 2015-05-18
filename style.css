@@ -6,37 +6,63 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;*/
+  margin: 0;
+  padding: 0;
   background: black;
   color: white;
   font-family: "Helvetica", "Arial", "sans-serif";
   font-size: 1.4em;
 }
 
-@media 
+.container {
+  max-width: 570px;
+  margin: auto;
+  padding: 5% 20px 20px;
+}
+@media (max-width: 320px) {
+  .container {
+    padding: 20px 20px 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    padding: 25px 20px 20px;
+  }
+}
+#logo-container {
+  width: 100%;
+  margin-bottom: 5%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #logo-container {
+    margin-bottom: 20px;
+  }
+}
 #logo,
 #sub-logo { 
   margin: auto;
 }
+
 #logo {
-  margin-top: 5%;
-  width: 25%;
+  width: 62%;
+  margin-bottom: 5px;
 }
 #sub-logo {
-  width: 11%;
-  margin-bottom: 2.5%;
+  width: 27%;
 }
 #logo img,
 #sub-logo img {
   width: 100%;
   margin: auto;
+  display: block;
 }
 .embed-container {
   position: relative;
-  padding-bottom: 22%;
+  padding-bottom: 55%;
   height: 0;
   overflow: hidden;
-  max-width: 40%;
-  margin: auto;
+  max-width: 100%;
+  /*margin: auto 15px;*/
   /*top: 50%;
   transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -53,14 +79,30 @@ body {
 }
 #credits {
   margin: auto;
+  margin-top: 6%;
   width: 100%;
-  position: fixed;
-  bottom: 30px;
   text-align: center;
 }
+@media (max-width: 320px) {
+  #credits {
+    font-size: .6em;
+  }
+}
+@media (min-width: 320px) {
+  #credits {
+    font-size: .7em;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 480px) {
+  #credits {
+    font-size: .9em;
+    margin-top: 6%;
+  }
+}
 #credits img {
-  width: 450px;
-  height: 200px;
+  max-width: 420px;
+  width: 100%;
   margin: auto;
   display: block;
   opacity: 0.8;
@@ -78,4 +120,16 @@ body {
   width: 30px;
   display: block;
   opacity: 0.8;
+}
+@media (max-width: 480px) {
+  #social {
+    bottom: 20px;
+    left: 20px;
+  }
+  .social-logo {
+    margin: 0 3.5px;
+  }
+  .social-logo img {
+    width: 25px;
+  }
 }
