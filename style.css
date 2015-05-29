@@ -1,20 +1,21 @@
 @import "bootstrap";
 
 body {
-  /*background: url('img/paperboys_website_photo_02.jpg') no-repeat 50% 50% fixed;
+  background: url('img/paperboys_website_photo_11.jpg') no-repeat 50% 50% fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  -webkit-background-size: cover;*/
+  -webkit-background-size: cover;
   margin: 0;
   padding: 0;
-  background: black;
+  /*background: black;*/
   color: white;
   font-family: "Helvetica", "Arial", "sans-serif";
   font-size: 1.4em;
 }
 
 .container {
+  min-width: 320px;
   max-width: 570px;
   margin: auto;
   padding: 5% 20px 20px;
@@ -27,6 +28,11 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
     padding: 25px 20px 20px;
+  }
+}
+@media (min-width: 1450px) {
+  .container {
+    max-width: 650px;
   }
 }
 #logo-container {
@@ -58,7 +64,7 @@ body {
 }
 .embed-container {
   position: relative;
-  padding-bottom: 55%;
+  padding-bottom: 56%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
@@ -98,6 +104,11 @@ body {
   #credits {
     font-size: .9em;
     margin-top: 6%;
+  }
+}
+@media (min-width: 1450px) {
+  #credits {
+    font-size: 1.2em;
   }
 }
 #credits img {
