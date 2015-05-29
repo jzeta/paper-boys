@@ -13,7 +13,10 @@ body {
   font-family: "Helvetica", "Arial", "sans-serif";
   font-size: 1.4em;
 }
-
+a {
+  color: #fff;
+  text-decoration: none;
+}
 .container {
   min-width: 320px;
   max-width: 570px;
@@ -85,7 +88,6 @@ body {
 }
 #credits {
   margin: auto;
-  margin-top: 6%;
   width: 100%;
   text-align: center;
 }
@@ -97,13 +99,11 @@ body {
 @media (min-width: 320px) {
   #credits {
     font-size: .7em;
-    margin-top: 20px;
   }
 }
 @media (min-width: 480px) {
   #credits {
     font-size: .9em;
-    margin-top: 6%;
   }
 }
 @media (min-width: 1450px) {
@@ -112,11 +112,43 @@ body {
   }
 }
 #credits img {
-  max-width: 420px;
+  max-width: 480px;
   width: 100%;
   margin: auto;
   display: block;
   opacity: 0.8;
+}
+#email {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  opacity: 0.8;
+}
+@media (max-width: 320px) {
+  #email {
+    font-size: .6em;
+  }
+}
+@media (min-width: 320px) {
+  #email {
+    font-size: .6em;
+  }
+}
+@media (min-width: 480px) {
+  #email {
+    font-size: .7em;
+  }
+}
+@media (min-width: 1450px) {
+  #email {
+    font-size: .8em;
+  }
+}
+@media (max-width: 480px) {
+  #email {
+    bottom: 20px;
+    right: 20px;
+  }
 }
 #social {
   position: fixed;
