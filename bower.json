@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "bootstrap-less": "~3.3.4",
-    "components-font-awesome": "~4.3.0"
+    "components-font-awesome": "~4.3.0",
+    "fullpage.js": "~2.6.6"
   }
 }
