@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website for Paper Boys web series",
   "repository": "https://github.com/jzeta/paper-boys",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.8.11",
     "gulp-less": "^3.0.3",
     "gulp-bower": "0.0.10",

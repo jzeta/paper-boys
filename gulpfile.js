@@ -11,7 +11,8 @@ var bower = require('gulp-bower');
 // connect server
 gulp.task('connect', function() {
   connect.server({
-    livereload: true
+    livereload: true,
+    port: process.env.PORT || 5000 // localhost:5000
   });
 });
 
