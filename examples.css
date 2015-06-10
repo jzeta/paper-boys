@@ -73,7 +73,7 @@ p{
 	text-align:center;
 }
 #menu li {
-	display: block;
+	display: inline-block;
 	margin: 0 10px;
 	color: #000;
 	font-size: 1.5em;
@@ -107,8 +107,8 @@ p{
 }
 #menu{
 	position:fixed;
-	bottom:160px;
-	left:0;
+	bottom:70px;
+	left:45%;
 	z-index: 70;
 	padding: 0;
 	margin:0;
@@ -116,9 +116,9 @@ p{
 #logo{
 	position:fixed;
 	z-index: 70;
-	width: 45%;
-	bottom: 20px;
-	left: 20px;
+	width: 35%;
+	bottom: 40px;
+	left: 40px;
 }
 #logo img {
 	width: 100%;
@@ -260,24 +260,24 @@ p{
 
 /* Defining each section background and styles
 * --------------------------------------- */
-#home {
-	background-image: url(img/paperboys_website_photo_01.jpg);
+#section-home {
+	background-image: url(./assets/images/paperboys_website_photo_01.jpg);
 	padding: 0 0 0 0;
 }
-#about {
-	background-image: url(img/paperboys_website_photo_02.jpg);
+#section-about {
+	background-image: url(./assets/images/paperboys_website_photo_02.jpg);
 	padding: 0 0 0 0;
 }
-#episodes {
-	background-image: url(img/paperboys_website_photo_03.jpg);
+#section-episodes {
+	background-image: url(./assets/images/paperboys_website_photo_03.jpg);
 	padding: 0 0 0 0;
 }
-#cast-and-crew {
-	background-image: url(img/paperboys_website_photo_04.jpg);
+#section-cast-and-crew {
+	background-image: url(./assets/images/paperboys_website_photo_04.jpg);
 	padding: 0 0 0 0;
 }
-#contact {
-	background-image: url(img/paperboys_website_photo_03.jpg);
+#section-contact {
+	background-image: url(./assets/images/paperboys_website_photo_06.jpg);
 	padding: 0 0 0 0;
 }
 
